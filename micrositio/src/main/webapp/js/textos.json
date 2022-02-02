@@ -2,12 +2,54 @@
 	"Variables": {
 		"Titulo": "textos",
 		"index": {
-			"seccion": "Dirección de Ahorro para el Retiro",
-			"cuerpo": '<p style="font-weight: 400;">Estimada&nbsp;universitaria/&nbsp;universitario</p> <p style="font-weight: 400;">&nbsp;</p> <p style="font-weight: 400;">Recibe un cordial saludo,</p> <p style="font-weight: 400;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p> <p style="font-weight: 400;">Por este medio hacemos de tu conocimiento que, derivado de la aprobacion de una nueva prestacin denominada Plan de Ahorro para el Retiro y Pr&eacute;stamos del Personal de la Universidad Autonoma del Estado de Hidalgo, luego de cumplir con el proceso de normatividad y tramites ante las instituciones bancarias, a partir de la primera quincena de diciembre del a&ntilde;o en curso se creara tu cuenta individual, la cual sera personal, exclusiva e intransferible.</p> <p style="font-weight: 400;">Esta cuenta individual estar&aacute; integrada por una cuota base del 5% de tu salario tabular, que se ejecuta via nomina de manera quincenal, asi tambien, tu cuenta individual recibira la aportacion efectuada por la Universidad equivalente al 5% de ese mismo salario.</p> <p style="font-weight: 400;">Con las acciones descritas se cumple el compromiso del Sindicato&nbsp;de Personal Academico de la UAEH, del Sindicato &Uacute;nico de Trabajadores y Empleados de la UAEH, con todos sus agremiados que esperaban la entrada en operaci&oacute;n de esta prestaci&oacute;n y tambi&eacute;n del&nbsp;Patronato de nuestra Universidad con los trabajadores no sindicalizados, para lo cual hubo que atravesar por un proceso legal y as&iacute; dar absoluta transparencia al manejo de los recursos.</p> <p style="font-weight: 400;">Es importante informarte que durante el mes de enero del 2022&nbsp;acudiremos a tu centro de adscripcion con la finalidad de brindarte mayor informacion, aclarar dudas e integrar el expediente personal del Plan que deber&aacute; contener la designaci&oacute;n de beneficiarios de esta nueva prestaci&oacute;n que tiene el objetivo de contribuir a tu retiro de la vida laboral en condiciones dignas.</p> <p></p> <p>--</p> <p><em>Atentamente&nbsp;</em></p> <p><em>&nbsp;</em></p> <p><em>Direccion de Ahorro para el Retiro</em></p> <p><em>Coordinacion de Administracion y Finanzas</em></p> <p><em>Patronato</em></p> <p><em>--</em></p>',
-			"footer": ""
+			"seccion": [
+				"text",
+				"Dirección de Ahorro para el Retiro"
+			],
+			"cuerpo": [
+				"url",
+				"html/index-cuerpo.html"
+			]
 		},
-		"antecedentes":{
-			"cuerpo": "Desde hace tiempo existe una señalada preocupación entre académicos y autoridades en muchos países sobre si los individuos están realizando el ahorro necesario para su fase de retiro. La evidencia empírica muestra que en los países desarrollados no es así, y lo mismo indica la poca evidencia disponible para países en desarrollo. En este trabajo se hace una revisión de la literatura teórica sobre este tema, en particular del modelo de ciclo de vida, así como de otros planteamientos que contribuyen a explicar el fenómeno. Se hace hincapié en el caso mexicano y para ello se ofrece la escasa evidencia disponible sobre el ahorro para el retiro de su población y se muestra que éste no es adecuado en la mayoría de los casos. Se concluye con algunas reflexiones útiles para diseñar políticas públicas que permitan enfrentar este problema."
+		"antecedentes": {
+			"cuerpo": ""
+		},
+		"reflexion": {
+			"seccion": [
+				"text",
+				"Dirección de Ahorro para el Retiro > Reflexion"
+			],
+			"cuerpo": [
+				"url",
+				"html/reflexion-cuerpo.html"
+			]
+		}
+		
+	},
+	"menu_izq": {
+		"0":{
+			"nombre": "Inicio",
+			"texto": "Inicio (Anuncio Importante)",
+			"href":"index.html",
+			"class0": "fa-stack icon_mi",
+			"class1": "fa fa-circle fa-stack-2x fa-inverse",
+			"class2": "fa fa-home fa-stack-1x"
+		},
+		 "1":{
+		 	"nombre":"Reflexión",
+			"texto": "Reflexion",
+			"href":"reflexion.html",
+			"class0": "fa-stack icon_mi",
+			"class1": "fa fa-circle fa-stack-2x fa-inverse",
+			"class2": "fa fa-university fa-stack-1x"
+		},
+		"2":{
+			"nombre":"Visión y Misión",
+			"texto": "Mision y Vision",
+			"href":"#",
+			"class0":"fa-stack icon_mi",
+			"class1":"fa fa-circle fa-stack-2x fa-inverse",
+			"class2": "fa fa-university fa-stack-1x"
 		}
 	}
 }
